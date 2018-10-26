@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appLayoutPai"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".activity.LoginActivity"
+    android:id="@+id/rootView"
+    tools:cotext="com.example.fernando.myapplication.activity.Mask"
+    android:weightSum="1"
+
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/logo_findog"
+            android:layout_weight="1.81"
+            android:layout_marginTop="50dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="86dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Nome Cachorro"
+                android:id="@+id/id_dog"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etDataVacina"
+            android:layout_weight="1"
+            android:hint="Data"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etVacinaNome"
+            android:layout_weight="1"
+            android:hint="Nome da Vacina"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/etReforco"
+            android:layout_weight="1"
+            android:hint="Reforço"
+            android:textAlignment="center"
+            android:layout_marginTop="25dp"
+            android:textIsSelectable="false"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Cadastrar"
+            android:id="@+id/bCadastrarVacina"
+            android:background="#040404"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/notification_subtext_size"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>

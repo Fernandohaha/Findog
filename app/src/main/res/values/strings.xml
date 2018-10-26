@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Findog</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_perfilactivity">Perfilactivity</string>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Cardápio</item>
+        <item>Notícias</item>
+        <item>Eventos</item>
+        <item>Locais</item>
+        <item>Anúncios</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

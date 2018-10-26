@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+            android:title="Main Activity" />
+        <item
+            android:id="@+id/nav_localizacao"
+            android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+            android:title="Localização" />
+        <item
+            android:id="@+id/nav_cadastrardog"
+            android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+            android:title="Cadastrar PET" />
+        <item
+            android:id="@+id/nav_Vacina"
+            android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+            android:title="Cadastrar Vacina" />
+    </group>
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/nav_EditarPerfil"
+                android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+                android:title="Editar Perfil" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/cast_abc_scrubber_control_to_pressed_mtrl_005"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>
